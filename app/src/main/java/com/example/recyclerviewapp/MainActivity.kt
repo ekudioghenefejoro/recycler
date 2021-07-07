@@ -15,8 +15,38 @@ class MainActivity : AppCompatActivity() {
 
         val display: List<Item_Data_Class> = listOf(
             Item_Data_Class(
+                "ROBERT","JOHN", 1
+            ),
+
+        Item_Data_Class("ROBERT","JOHN", 1),
+
+        Item_Data_Class(
+            "ROBERT","JOHN", 1),
+        Item_Data_Class(
+            "ROBERT","JOHN", 1),
+        Item_Data_Class(
+            "ROBERT","JOHN", 1),
+
+        Item_Data_Class(
+            "ROBERT","JOHN", 1),
+
+        Item_Data_Class(
+            "ROBERT","JOHN", 1),
+            Item_Data_Class(
+                "ROBERT","JOHN", 1),
+            Item_Data_Class(
+                "ROBERT","JOHN", 1),
+            Item_Data_Class(
+                "ROBERT","JOHN", 1),
+            Item_Data_Class(
+                "ROBERT","JOHN", 1),
+            Item_Data_Class(
+                "ROBERT","JOHN", 1),
+            Item_Data_Class(
+                "ROBERT","JOHN", 1),
+            Item_Data_Class(
                 "ROBERT","JOHN", 1)
-            )
+        )
 
         myItemAdapter= Item_Adapter(display) // empty list
         binding.recycler.adapter =myItemAdapter
